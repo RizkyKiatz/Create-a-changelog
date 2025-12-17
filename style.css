@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: arial;
+}
+
+.changelog-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.changelog-item h1 {
+   text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.changelog-item p{
+   text-align: center;
+    color: gray; 
+}
+
+.change-log{
+    margin-top: 50px;
+   display:flex;
+   align-items:center;
+   
+  
+}
+
+.change-log1{
+
+    height:250px;
+    width:300px;
+    margin-right:0px;
+    border-right: 20px dotted black;
+    padding-right: 20px;
+    padding-top: -20px;
+
+}
+
+.change-log1 ul{
+    margin-top:-17px;
+    text-align: right;
+    list-style: none;
+    color: gray;    
+}
+
+.change-log1 li, .change-log2 li{
+    margin-top:20px;
+    font-size: 16px;
+}
+
+.change-log2{
+    position: relative;
+    border-left: 2px solid  black;
+    margin-left: -10px;
+    height: 400px;
+    
+}
+
+
+.change-log2 ul{
+    margin-top:75px;
+    list-style:none;
+    margin-left:-20px;
+
+}
+.button{
+    text-align: center;
+    padding:10px 30px;
+    margin-top:20px;
+    margin-left:35%;
+    text-align: center;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
